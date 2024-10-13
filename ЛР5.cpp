@@ -1,8 +1,11 @@
 ﻿#include <iostream>
+#include "windows.h" 
 using namespace std;
 
 int main()
 {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
     int n;
     double w, r;
     cout << "Enter w: ", cin >> w; cout << "Enter n: ", cin >> n;
