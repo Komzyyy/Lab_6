@@ -8,17 +8,17 @@ int main()
     SetConsoleOutputCP(1251);
     int n;
     double w, r;
-    cout << "Enter w: ", cin >> w; cout << "Enter n: ", cin >> n;
+    cout << "Введіть   w: ", cin >> w; cout << "Введіть   n: ", cin >> n;
     switch (n) {
-    case 1: r = w, cout << r, cout << " kilograms\n";
+    case 1: r = w, cout << r, cout << " кілограм\n";
         break;
-    case 2: r = w / 1000000, cout << r, cout << " kilograms\n";
+    case 2: r = w / 1000000, cout << r, cout << " кілограм\n";
         break;
-    case 3: r = w / 1000, cout << r, cout << " kilograms\n";
+    case 3: r = w / 1000, cout << r, cout << " кілограм\n\n";
         break;
-    case 4: r = w * 1000, cout << r, cout << " kilograms\n";
+    case 4: r = w * 1000, cout << r, cout << " кілограм\n\n";
         break;
-    case 5: r = w * 100, cout << r;cout << " kilograms\n";
+    case 5: r = w * 100, cout << r;cout << " кілограм\n\n";
         break;  }
     
     system("pause");
